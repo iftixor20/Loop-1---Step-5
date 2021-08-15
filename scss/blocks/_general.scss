@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #F2F2F2;
+  font-family: 'Fraunces 9pt';
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  background-image: url("../../assets/img/background.jpg");
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

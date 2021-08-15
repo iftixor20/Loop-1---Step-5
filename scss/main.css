@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #F2F2F2;
+  font-family: "Fraunces 9pt";
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  background-image: url("../../assets/img/background.jpg");
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head {
+  max-width: 600px;
+  top: 150px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.head__box {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.box__span::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 55px;
+  justify-content: center;
+  background-color: #7dc2f0;
+}
+
+.cards_h2 {
+  font-size: 56px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  font-family: "Prompt", "Arial", sans-serif;
+  margin-top: 45px;
+  color: blue;
+}
+
+.cards_p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  color: #817f7f;
+}
+
+.list {
+  display: flex;
+  flex-grow: 1;
+  max-width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.item {
+  align-items: center;
+  margin-left: 70px;
+  text-transform: uppercase;
+}
+
+.item__p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0%;
+  color: #928c8c;
+}
+
+.head__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+.head__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.head__item {
+  margin-bottom: 15px;
+}
+
+.head__p {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  color: #8d8989;
+}
+
+.head__h3 {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
